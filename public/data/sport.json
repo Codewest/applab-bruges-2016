@@ -1,0 +1,181 @@
+[
+{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportcomplex Gulden Kamer"
+,"Straatnaam":"Geralaan"
+,"Postcode":"8310"
+,"Deelgemeente":"Sint-Kruis"
+,"Omschrijving":"Sporthal Albert Plovier, skatepark, speelplein, speelbos en buitenterreinen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24819822040348,51.218750160676]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Wielerpiste Patrick Sercu"
+,"Straatnaam":"Nijverheidsstraat"
+,"Huisnr":"112"
+,"Postcode":"8310"
+,"Deelgemeente":"Assebroek"
+,"Omschrijving":"Wielerpiste van 333,33 meter in open lucht, op het binnenplein een skeelerpiste van 250 meter, 2 basket-  en 2 volleterreinen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24412166426509,51.2058274366693]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportcomplex Daverlo"
+,"Straatnaam":"Dries"
+,"Huisnr":"2"
+,"Postcode":"8310"
+,"Deelgemeente":"Assebroek"
+,"Omschrijving":"Omvat een gloednieuwe sporthal, cultuurzaal, repetitieruimtes, speelplein, skatepark, basketbalveld en buitenterreinen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24800666311843,51.1935399510971]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sporthal De Landdijk"
+,"Straatnaam":"Evendijk-Oost"
+,"Huisnr":"246"
+,"Postcode":"8380"
+,"Deelgemeente":"Zeebrugge"
+,"Omschrijving":"Beschikt over een sporthal, speelplein, dierenpark en kinderdagverblijf"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.21342295660187,51.3301111571037]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportcomplex Jan Breydelstadion"
+,"Straatnaam":"Koning Leopold III-laan"
+,"Huisnr":"50"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Omschrijving":"Thuisbasis van Club Brugge en Cercle Brugge. Omvat ook een sport-en judozaal, skeelerpiste buitenterreinen en het zwembad S&R Olympia"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.18162497996319,51.1932559283606]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sporthal VTI"
+,"Straatnaam":"Zandstraat"
+,"Huisnr":"138"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Omschrijving":"Beschikt over een sporthal en een buitenterrein. De Stad staat in voor het naschools verhuur van deze schoolsportinfrastructuur"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.1952372898521,51.2031749509191]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sporthal Sint-Lodewijkscollege"
+,"Straatnaam":"Magdalenstraat"
+,"Huisnr":"30"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Omschrijving":"Beschikt over verschillende schoolsportzalen en een buitenterrein. De Stad staat in voor het naschools verhuur van deze schoolsportinfrastr."
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.21066022038211,51.2002919514475]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportpark de Watertoren"
+,"Straatnaam":"Koning Leopold III-laan"
+,"Huisnr":"109"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Omschrijving":"Omvat verschillende buitenterreinen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.18618677860361,51.1932216846747]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sport Vlaanderen-centrum Julien Saelens"
+,"Straatnaam":"Nijverheidsstraat"
+,"Huisnr":"112"
+,"Postcode":"8310"
+,"Deelgemeente":"Assebroek"
+,"Omschrijving":"Biedt een brede waaier aan sportfaciliteiten, zowel indoor als outdoor"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24346088244298,51.2051536544509]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportcomplex Koude Keuken"
+,"Straatnaam":"Zandstraat"
+,"Huisnr":"284"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Omschrijving":"Omvat een sporthal, parkdomein en verschillende buitenterreinen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.17983654938096,51.2015621004379]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportcomplex Tempelhof"
+,"Straatnaam":"Tempelhof"
+,"Huisnr":"57"
+,"Postcode":"8000"
+,"Deelgemeente":"Sint-Pieters"
+,"Omschrijving":"Omvat een sporthal, gloednieuwe judozaal en een aantal buitenterreinen. Vaak het toneel voor spektakelrijke boks- en worstelkampen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20400380693725,51.228058762371]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportzaal Koolkerke De Arend"
+,"Straatnaam":"Arendstraat"
+,"Huisnr":"16"
+,"Postcode":"8000"
+,"Deelgemeente":"Koolkerke"
+,"Omschrijving":"Mini-basketbal, gymnastiek, dansen, badminton, yoga, gevechtssporten"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24740108145922,51.2417814262618]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sporthal De Polder"
+,"Straatnaam":"Stokerij"
+,"Huisnr":"10"
+,"Postcode":"8380"
+,"Deelgemeente":"Dudzele"
+,"Omschrijving":"Beschikt over een sporthal, skatepark, speelplein en een aantal buitenterreinen. Men kan ook gebruik maken van de bar, keuken en vergaderzal"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22960009379305,51.2708023155165]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sporthal KTA"
+,"Straatnaam":"Rijselstraat"
+,"Huisnr":"7"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Michiels"
+,"Omschrijving":"Beschikt over een sporthal en een buitenterrein. De Stad staat in voor het naschools verhuur van deze schoolsportinfrastructuur"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.21426545300112,51.1906333449727]}
+}
+,{
+"json_featuretype":"Sportinfrastrctuur"
+,"Sportinfrastructuur":"Sportpark Rust Roest"
+,"Straatnaam":"Zuidervaartje"
+,"Huisnr":"3"
+,"Postcode":"8310"
+,"Deelgemeente":"Sint-Kruis"
+,"Omschrijving":"Omvat twee buitenterreinen"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23899643185394,51.2209351293449]}
+}
+]
