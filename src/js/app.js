@@ -11,7 +11,7 @@ import data from './data';
         addEventListeners();
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        console.log(data.museumPoints());
+        console.log(data.benchPoints());
     });
 
     var makeMap = function makeMap() {
