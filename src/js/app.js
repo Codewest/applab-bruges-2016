@@ -1,17 +1,19 @@
 import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
+import { clearMarkers, setMarkers } from './markers';
 import data from './data';
 
 (function() {
     var map;
-    var list = [] ;
+    var list = [];
 
     $(function () {
         makeMap();
         addEventListeners();
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        console.log(data.benchPoints());
+        var points = data.benchPoints();
+        setMarkers(map, points);
     });
 
     var makeMap = function makeMap() {
