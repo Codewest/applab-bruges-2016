@@ -114,13 +114,130 @@ aside nav .photo {
 }
 /* /sidebar */
 
+/* login */
+#login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("/media/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 10%;
+    width: 100%;
+    font-size: 10rem;
+    margin: 0;
+    text-align: center;
+    text-shadow: -1px 0 #999, 0 1px #999, 1px 0 #999, 0 -1px #999;
+}
+
+#login-container a {
+    padding-right: 10px;
+    padding-left: 6px;
+    height: 80px;
+    font-family: "Rubik", "Helvetica", "Arial", sans-serif;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    background-color: #3b5998;
+    text-align: center;
+    border-bottom: solid #26417a 3px;
+}
+
+#login-container a .facebookIcon {
+    display: inline-block;
+    height: 100%;
+    line-height: 80px;
+    font-size: 3.5rem;
+    padding: 0 25px;
+    border-right: solid #4f6aa3 4px;
+}
+
+#login-container a .signIn {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    padding: 20px 15px 0 15px;
+    font-size: 1.5rem;
+}
+
 /* smartphones */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* /smartphones */
+    h1 {
+        padding-top: 50%;
+        font-size: 4rem;
+    }
+
+    /*#login-container a {
+        padding-right: 4px;
+        padding-left: 3px;
+        height: 32px;
+    }
+
+    #login-container a .facebookIcon {
+        line-height: 32px;
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+
+    #login-container a .signIn {
+        padding: 8px 6px 0 6px;
+        font-size: 0.6rem;
+    }*/
+    #login-container {
+        background-position: bottom;
+        background-position-x: 90%;
+    }
+
+    #login-container a {
+        padding-right: 6px;
+        padding-left: 5px;
+        height: 48px;
+    }
+
+    #login-container a .facebookIcon {
+        line-height: 48px;
+        font-size: 2.1rem;
+        padding: 0 15px;
+    }
+
+    #login-container a .signIn {
+        padding: 12px 9px 0 9px;
+        font-size: 0.9rem;
+    }
+
 }
-/* /smartphones */
+
 
 /* tablets */
 @media screen and (min-device-width: 480px) and (max-device-width: 1024px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    #login-container a {
+        padding-right: 6px;
+        padding-left: 5px;
+        height: 48px;
+    }
+
+    #login-container a .facebookIcon {
+        line-height: 48px;
+        font-size: 2.1rem;
+        padding: 0 15px;
+    }
+
+    #login-container a .signIn {
+        padding: 12px 9px 0 9px;
+        font-size: 0.9rem;
+    }
+
 }
 /* /tablets */
 
