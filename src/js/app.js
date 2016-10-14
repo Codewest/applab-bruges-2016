@@ -20,8 +20,9 @@ import data from './data';
         addEventListeners();
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        var points = data.benchPoints();
-        setMarkers(map, points);
+        data.getBenchPoints().then(function(points) {
+          setMarkers(map, points);
+        });
     });
 
     var makeMap = function makeMap() {
