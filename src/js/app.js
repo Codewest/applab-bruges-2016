@@ -1,5 +1,6 @@
 import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
+import { drawBruges } from './polygons';
 import { clearMarkers, setMarkers } from './markers';
 import data from './data';
 
@@ -17,6 +18,9 @@ import data from './data';
 
     $(function () {
         makeMap();
+        map.on('load', function () {
+            drawBruges(map);
+        });
         addEventListeners();
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
