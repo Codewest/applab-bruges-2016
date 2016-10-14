@@ -134,14 +134,14 @@ function getCoordinatenLokalen(){
  }
 
 var data = {
-  getLibPoints: getCoordinatenBib,
-  getMuseumPoints: getCoordinatenMusea,
-  getSportPoints: getCoordinatenSport,
-  getSwimmingPoints: getCoordinatenZwembaden,
-  getYouthPoints: getCoordinatenLokalen,
-  getMuseumPoints: getCoordinatenMusea,
-  getBenchPoints: getCoordinatenZitBanken,
-  getParkPoints: getCoordinatenParken
+  bib: getCoordinatenBib,
+  monumenten: getCoordinatenMusea,
+  sport: getCoordinatenSport,
+  zwembaden: getCoordinatenZwembaden,
+  jeugdlokalen: getCoordinatenLokalen,
+  horeca: getCoordinatenHoreca,
+  zitbanken: getCoordinatenZitBanken,
+  parken: getCoordinatenParken
 };
 
 export default data;

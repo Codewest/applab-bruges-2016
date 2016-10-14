@@ -21,12 +21,12 @@ import data from './data';
         map.on('load', function () {
             drawBruges(map);
         });
-        addEventListeners();
+        var interests = [];
+        addEventListeners(function(props) {
+          visualize(props);
+        });
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        data.getBenchPoints().then(function(points) {
-          setMarkers(map, points);
-        });
     });
 
     var makeMap = function makeMap() {
@@ -38,4 +38,14 @@ import data from './data';
             zoom: 13.7
         });
     };
+
+    function visualize(props) {
+      if (props.active) {
+        data[props.name]().then(function(points) {
+          setMarkers(map, points, props.name, props.content);
+        });
+      } else {
+        clearMarkers(map, props.name);
+      }
+    }
 })();

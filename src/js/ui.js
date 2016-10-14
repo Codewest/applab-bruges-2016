@@ -1,14 +1,13 @@
 var menuOpen = false;
 var subMenuOpen = false;
-var activeInterests = [];
 
-var addEventListeners = function () {
+var addEventListeners = function (callback) {
     $(".hamburger").on("click", toggleMenu);
     $(".interesses").on("click", openInteressesPage);
     $(".interesses-page .menu-item").on("click", function() {
         $(this).toggleClass("activated");
-        activeInterests = updateActiveInterests();
-        console.log(getActiveInterests());
+        var props = getClickedInterest($(this));
+        callback(props);
     });
 };
 
@@ -37,21 +36,12 @@ var toggleMenu = function() {
     }
 };
 
-var updateActiveInterests = function() {
-    var interestList = $(".interesses-page").children();
+var getClickedInterest = function(clickedEl) {
     var activated = [];
-
-    for (var i = 0; i < interestList.length; i++) {
-        if (interestList[i].getAttribute("class").includes("activated")) {
-            activated.push(interestList[i].getAttribute("class").split(" ")[1]);
-        }
-    }
-
-    return activated;
+    var name = clickedEl.attr("class").split(" ")[1];
+    var active = clickedEl.attr("class").includes("activated");
+    var content = clickedEl.children('i').text();
+    return { name, active, content};
 };
 
-var getActiveInterests = function() {
-    return activeInterests;
-};
-
-export { addEventListeners, getActiveInterests};
+export { addEventListeners };
