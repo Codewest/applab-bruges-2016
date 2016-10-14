@@ -1,0 +1,38 @@
+[
+{
+"json_featuretype":"Zwembaden"
+,"Zwembad":"Jan Guilini"
+,"Straatnaam":"Keizer Karelstraat"
+,"Huisnr":"41"
+,"Postcode":"8000"
+,"Deelgemeente":"Christus-Koning"
+,"Omschrijving":"Overdekt 25-meterbad, met minimumdiepte van 1m en maximumdiepte van 3m"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.21194068964863,51.2135247045684]}
+}
+,{
+"json_featuretype":"Zwembaden"
+,"Zwembad":"S & R Olympia"
+,"Straatnaam":"Doornstraat"
+,"Huisnr":"110"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Omschrijving":"Olympisch topsportbad van 50 meter lang en 25 meter breed (bevat 10 banen), subtropisch zwemparadijs"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.18257471889769,51.1911540019654]}
+}
+,{
+"json_featuretype":"Zwembaden"
+,"Zwembad":"Interbad"
+,"Straatnaam":"Veltemweg"
+,"Huisnr":"35"
+,"Postcode":"8310"
+,"Deelgemeente":"Sint-Kruis"
+,"Omschrijving":"Recreatiebad, waterglijbaan van 60 meter, peuterbad, instructiebad"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.25759614457321,51.2068204627988]}
+}
+]
