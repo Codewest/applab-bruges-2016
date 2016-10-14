@@ -27,8 +27,8 @@ gulp.task('styles', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch('js/**/*.js', ['scripts']);
-  gulp.watch('css/**/*.css', ['styles']);
+  gulp.watch('src/js/**/*.js', ['scripts']);
+  gulp.watch('src/css/**/*.css', ['styles']);
 });
 
 gulp.task('default', ['scripts', 'styles', 'watch'], () => {});
