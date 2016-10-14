@@ -17,12 +17,14 @@ var drawBruges = function drawBruges(map) {
     });
     map.addLayer({
         'id': 'route',
-        'type': 'fill',
+        'type': 'line',
         'source': 'Brugge',
-        'layout': {},
+        'layout': {
+            'line-join': 'round'
+        },
         'paint': {
-            'fill-color': '#088',
-            'fill-opacity': 0.4
+            'line-color': 'red',
+            'line-width': 2
         }
     });
 };

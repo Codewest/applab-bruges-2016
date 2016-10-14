@@ -9,6 +9,9 @@ import data from './data';
 
     $(function () {
         makeMap();
+        map.on('load', function () {
+            drawBruges(map);
+        });
         addEventListeners();
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
@@ -23,8 +26,5 @@ import data from './data';
             center: [3.227180, 51.210358],
             zoom: 13.7
         });
-        map.on('load', function () {
-            drawBruges(map);
-        })
     };
 })();
