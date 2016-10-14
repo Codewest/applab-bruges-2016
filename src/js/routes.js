@@ -38,6 +38,6 @@ var openRoute = function openRoute() {
     var yCenter = (yStart + yDestination)/2;
     var zoom = 18.75;
     window.open("https://www.google.be/maps/dir/" + xStart + "," + yStart + "/" + xDestination + "," + yDestination + "/@" + xCenter + "," + yCenter + "," + zoom +"z");
-}
+};
 
 export { openRoute, determinePosition };

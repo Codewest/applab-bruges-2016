@@ -1,5 +1,6 @@
 import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
+import { drawBruges } from './polygons';
 
 (function() {
     $(function () {
@@ -17,5 +18,8 @@ import { openRoute, determinePosition } from './routes';
             center: [3.227180, 51.210358],
             zoom: 13.7
         });
+        map.on('load', function () {
+            drawBruges(map);
+        })
     };
 })();
