@@ -52,6 +52,10 @@ aside .menu .menu-item {
     cursor: pointer;
 }
 
+aside .menu .activated {
+    background-color: rgba(123, 28, 28, 1);
+}
+
 aside .menu .menu-item:last-of-type {
     border: none;
 }
@@ -103,7 +107,8 @@ aside nav .photo {
 }
 
 #interesses-page {
-    height: 100%;
+    display: none;
+    height: 400px;
     width: 100%;
     background-color: rgba(211, 47, 47, 1);
 }
