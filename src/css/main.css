@@ -103,7 +103,8 @@ aside nav .photo {
 }
 
 #interesses-page {
-    height: 100%;
+    display: none;
+    height: 400px;
     width: 100%;
     background-color: rgba(211, 47, 47, 1);
 }
