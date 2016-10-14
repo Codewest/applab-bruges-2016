@@ -1,0 +1,19 @@
+{
+  "name": "applab",
+  "version": "0.0.1",
+  "description": "24-hour hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codewest/applab-bruges-2016.git"
+  },
+  "author": "Codewest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Codewest/applab-bruges-2016/issues"
+  },
+  "homepage": "https://github.com/Codewest/applab-bruges-2016#readme"
+}
