@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const uglifyJS = require('gulp-uglify');
 const uglifyCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
-const rollup = require('gulp-rollup');
+const rollup = require('rollup-stream');
+const source = require('vinyl-source-stream');
 
 // custom logger to avoid using gulp-plumber
 function logError(err) {
@@ -10,9 +11,12 @@ function logError(err) {
 }
 
 gulp.task('scripts', () => {
-  gulp.src('./src/js/app.js')
+  rollup({
+      entry: './src/js/app.js'
+  })
+  .pipe(source('app.js'))
   .pipe(rename({ suffix: '.min' }))
-  .pipe(gulp.dest('public/js/'));
+  .pipe(gulp.dest('./public/js/'));
 });
 
 gulp.task('styles', () => {
