@@ -1,4 +1,1 @@
-body {
-  /* styles here B O Y S */
-  color: #000;
-}
+@font-face{font-family:Rubik;src:url(../fonts/Rubik-Regular.woff2) format("woff2"),url(../fonts/Rubik-Regular.woff) format("woff")}@font-face{font-family:Rubik;src:url(../fonts/Rubik-Bold.woff2) format("woff2"),url(../fonts/Rubik-Bold.woff) format("woff");font-weight:700}html{font-family:Rubik,Helvetica,Arial,sans-serif;background-color:rgba(0,0,0,.8);color:rgba(255,255,255,1);line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
