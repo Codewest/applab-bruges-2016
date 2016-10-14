@@ -40,3 +40,6 @@ dist
 
 #Jetbrains config hiding
 .idea
+
+public/js
+public/css
