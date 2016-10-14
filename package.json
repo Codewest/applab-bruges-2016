@@ -2,9 +2,8 @@
   "name": "applab",
   "version": "0.0.1",
   "description": "24-hour hackathon",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,14 @@
   },
   "homepage": "https://github.com/Codewest/applab-bruges-2016#readme",
   "dependencies": {
-    "jquery": "^3.1.1"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
+    "node-sass-middleware": "0.8.0",
+    "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
     "babelify": "^7.3.0",
@@ -28,6 +34,7 @@
     "gulp-rollup": "^2.5.1",
     "gulp-sourcemaps": "^2.1.1",
     "gulp-uglify": "^2.0.0",
+    "rollup-stream": "^1.14.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }
