@@ -32,27 +32,34 @@ aside {
     z-index: 100;
 }
 
-aside nav.menu {
+aside .menu {
     display: none;
-    height: 200px;
     background-color: rgba(211, 47, 47, 1);
-    padding: 0 0 20px 0;
+    padding: 5px 0;
 }
 
-aside nav.menu a {
+aside .menu .menu-item {
     display: inline-block;
-    vertical-align: middle;
     height: 30px;
     width: 100%;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
-aside nav.menu a i.material-icons {
+aside .menu .menu-item a {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+aside .menu .menu-item i.material-icons {
     font-size: 24px;
-    padding: 0 30px 0 0;
+    padding: 0 30px 0 8px;
+    float: left;
+    display: inline-block;
 }
 
-aside nav.menu-controls {
+aside .menu-controls {
     height: 50px;
     clear: both;
     background-color: rgba(244, 67, 54, 1);
@@ -63,12 +70,12 @@ aside nav a i.material-icons {
     font-size: 38px;
 }
 
-aside nav a.hamburger {
+aside nav .hamburger {
     float: left;
     margin: 5px 0 0 10px;
 }
 
-aside nav a.photo {
+aside nav .photo {
     float: right;
     margin: 5px 10px 0 0;
 }
@@ -94,4 +101,3 @@ aside nav a.photo {
     color: white;
     z-index: 100;
 }
-
