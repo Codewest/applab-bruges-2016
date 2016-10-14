@@ -1,0 +1,158 @@
+[
+{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"Daverlo"
+,"Straatnaam":"Dries"
+,"Huisnr":"2"
+,"Postcode":"8310"
+,"Deelgemeente":"Assebroek"
+,"Telefoonnr":"050/831683"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24800666311843,51.1935399510971]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"De Arend"
+,"Straatnaam":"Arendstraat"
+,"Huisnr":"36"
+,"Postcode":"8000"
+,"Deelgemeente":"Koolkerke"
+,"Telefoonnr":"050/334757"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24635640450493,51.242153938097]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"De Dijk"
+,"Straatnaam":"Blankenbergse Steenweg"
+,"Huisnr":"221"
+,"Postcode":"8000"
+,"Deelgemeente":"Sint-Pieters"
+,"Telefoonnr":"050/446686"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20517041930265,51.2288663690563]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"De Garve"
+,"Straatnaam":"Pannebekestraat"
+,"Huisnr":"33"
+,"Postcode":"8000"
+,"Deelgemeente":"Sint-Pieters"
+,"Telefoonnr":"050/333295"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.2324913874791,51.2272290785911]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"De Schorre"
+,"Straatnaam":"Westkapelse Steenweg"
+,"Huisnr":"58"
+,"Postcode":"8380"
+,"Deelgemeente":"Dudzele"
+,"Telefoonnr":"050/815696"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22873386210702,51.2757792257903]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"De Zorge"
+,"Straatnaam":"Moerkerkse Steenweg"
+,"Huisnr":"190"
+,"Postcode":"8310"
+,"Deelgemeente":"Sint-Kruis"
+,"Telefoonnr":"050/833760"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24923573843303,51.2143471142415]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"J.F. Willems"
+,"Straatnaam":"Marktplein"
+,"Huisnr":"12"
+,"Postcode":"8380"
+,"Deelgemeente":"Zeebrugge"
+,"Telefoonnr":"050/799940"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.21080170892088,51.3313092792393]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"Lissewege"
+,"Straatnaam":"Oude Pastoriestraat"
+,"Huisnr":"5"
+,"Postcode":"8380"
+,"Deelgemeente":"Lissewege"
+,"Telefoonnr":"050/550171"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.19983771204385,51.2940642141271]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"Lode Zielens"
+,"Straatnaam":"Westmeers"
+,"Huisnr":"35"
+,"Postcode":"8000"
+,"Deelgemeente":"Brugge-Centrum"
+,"Telefoonnr":"050/334014"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22003928438623,51.2032353808921]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"Sint-Andries"
+,"Straatnaam":"Gistelse Steenweg"
+,"Huisnr":"524"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Andries"
+,"Telefoonnr":"050/727050"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.18120475817193,51.1975221360612]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"Sint-Michiels"
+,"Straatnaam":"Rijselstraat"
+,"Huisnr":"98"
+,"Postcode":"8200"
+,"Deelgemeente":"Sint-Michiels"
+,"Telefoonnr":"050/727030"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.21078129660261,51.1882004220431]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"Sint-Thomas"
+,"Straatnaam":"Brieversweg"
+,"Huisnr":"334"
+,"Postcode":"8310"
+,"Deelgemeente":"Sint-Kruis"
+,"Telefoonnr":"050/356390"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.28191253097748,51.2125172944899]}
+}
+,{
+"json_featuretype":"Bibliotheken"
+,"NaamBibliotheek":"De Biekorf"
+,"Straatnaam":"Kuipersstraat"
+,"Huisnr":"3"
+,"Postcode":"8000"
+,"Deelgemeente":"Brugge-Centrum"
+,"Telefoonnr":"050/472400"
+,"Aangemaakt op":"04/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22272852272307,51.2099329882302]}
+}
+]

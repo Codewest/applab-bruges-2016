@@ -1,0 +1,764 @@
+[
+{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"1"
+,"Ligging":"Zandberg"
+,"Huisnr":8
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"Gewest KSA, KSA Assebroek meisjes, Uitgezonderd, Europascouts, Kwibus"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24716494341624,51.192572438982]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Daverlostraat"
+,"Huisnr":140
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"209e Fos De Vrijbuiters"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24775287294845,51.1945851475351]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"8"
+,"Ligging":"Daverlostraat"
+,"Huisnr":140
+,"Eigenaar":"209e Fos De Vrijbuiters"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"209e Fos De Vrijbuiters"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24775287294845,51.1945851475351]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"10"
+,"Ligging":"Prinses Maria Christinalaan"
+,"Huisnr":11
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"Scouts Akabe Twiest"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24884407306475,51.1955341582273]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Prinses Maria Christinalaan"
+,"Huisnr":11
+,"Eigenaar":"Scouts Karel de Goede"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"Scouts en Gidsen Karel de Goede"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24884407306475,51.1955341582273]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"11"
+,"Ligging":"Antonis De Rooverestraat"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"K.S.A. Sint-Trudo"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.2595347124372,51.2027977690233]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"12"
+,"Ligging":"Peterseliestraat"
+,"Huisnr":100
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"Oranje vzw, Jeugdbond voor Natuur en Milieu, Vlaams Nationaal Jeugdverbond, Scouts A. De Pauw"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23367920721661,51.2183104380325]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"17"
+,"Ligging":"Mortierstraat"
+,"Huisnr":31
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"39e Fos De MenapiÃ«rs, KAJ Brugge, Jeugdwerkgroep Ruimtevaart, KSA Spiko, Brugse Socioculturele Jongeren, Punt Andere Lijn"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.2163212397809,51.2087304177479]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"23"
+,"Ligging":"Jakobinessenstraat"
+,"Huisnr":47
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"Sint-Leo Landscouts, Scoutsharmonie Sint-Leo"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23077643662334,51.2037923047741]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"24"
+,"Ligging":"Binnenweg"
+,"Huisnr":4
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Pieters"
+,"Vereniging":"Jeugdhuis Comma, vzw Entrepot, Woesh, Bazart, Techniekacademie en diverse anderen"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22487481388003,51.2274430797987]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"25"
+,"Ligging":"Amaat Vynckestraat"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Dudzele"
+,"Vereniging":"K.S.A. Sint-Lenaert"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22895003022983,51.2757789886025]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"27"
+,"Ligging":"Vaartbekeweg"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Koolkerke"
+,"Vereniging":"K.S.A. De Blauwvoet"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24618082434675,51.2317320442126]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"28"
+,"Ligging":"Stationsstraat"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Lissewege"
+,"Vereniging":"KSA Lissewege"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.19603626119832,51.293899180439]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"29"
+,"Ligging":"Paul Gilsonstraat"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"KSA Kristus Koning"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.19978322833185,51.2073466731624]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"30"
+,"Ligging":"Paul Gilsonstraat"
+,"Huisnr":0
+,"Eigenaar":"vzw Oranje"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"vzw Oranje"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.19978685905682,51.2073490267661]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"31"
+,"Ligging":"Fazantenlaan"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"K.S.A. Ter Straeten"
+,"Aantal_geb":5
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.18197994361827,51.202869971647]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"35"
+,"Ligging":"Landjuwelenstraat"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Jozef"
+,"Vereniging":"Chiro Sint-Jozef"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23566874909733,51.2299967289992]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"36"
+,"Ligging":"Blauwkasteelweg"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"11e Fos De Boekaniers"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24731582507111,51.217536603659]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"39"
+,"Ligging":"Blauwkasteelweg"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"Scouts Don Bosco"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24731582507111,51.217536603659]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"40"
+,"Ligging":"Blauwkasteelweg"
+,"Huisnr":0
+,"Eigenaar":"Scouts Don Bosco"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"Scouts Don Bosco"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.24731582507111,51.217536603659]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"42"
+,"Ligging":"Dekenstraat"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"Chiro Beukenhof"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.27828863457809,51.2166348912174]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"44"
+,"Ligging":"Sint-Arnolduslaan"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Chiro Wilgenland"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22029871496686,51.18159851613]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Sint-Arnolduslaan"
+,"Huisnr":26
+,"Eigenaar":"Chiro Wilgenhart"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Chiro Wilgenhart"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22029865797228,51.181600833305]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"45"
+,"Ligging":"Sint-Arnolduslaan"
+,"Huisnr":26
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Chiro Wilgenhart"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22029871496686,51.18159851613]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Sint-Arnolduslaan"
+,"Huisnr":28
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Chiro Wilgenhart"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22029871496686,51.18159851613]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Sint-Arnolduslaan"
+,"Huisnr":28
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Jeugdhuis Thope"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22030240171755,51.1815985519519]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Sint-Michielslaan"
+,"Huisnr":69
+,"Eigenaar":"Scouts Tilleghem"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Scouts Tilleghem"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20938903606128,51.1794373374002]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Sint-Michielslaan"
+,"Huisnr":69
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"Scouts Tilleghem"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20938534948973,51.1794373012378]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"46"
+,"Ligging":"Sint-Michielslaan"
+,"Huisnr":75
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Michiels"
+,"Vereniging":"K.S.A. Ten Briel"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20938350620396,51.1794372831565]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"47"
+,"Ligging":"Tempelhof"
+,"Huisnr":75
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Sint-Pieters"
+,"Vereniging":"Chiro op den Dijk, Rode Valken Brugge Noord, KSA Kristus Koning, KSA Spiko"
+,"Aantal_geb":4
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20252647216966,51.2286815759564]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Ligging":"Paalbos"
+,"Huisnr":0
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"KSA Rooyghem, KSA St Kruis en Male"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.26886331391436,51.2020818229888]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"61"
+,"Ligging":"Paalbos"
+,"Huisnr":0
+,"Eigenaar":"KSA St Kruis en Male"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"KSA St Kruis en Male"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.26886325930717,51.2020841401685]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"62"
+,"Ligging":"Ter Pannestraat"
+,"Huisnr":6
+,"Eigenaar":"Jeugdwerkinitiatief Stad"
+,"Terrein":0
+,"Deelgemeente":"Brugge Centrum"
+,"Vereniging":"Scouts Kerlinga"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22234408850461,51.2214505356914]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"63"
+,"Ligging":"Legeweg"
+,"Huisnr":0
+,"Eigenaar":"vzw Hudo"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"Scouts Grimmeringe, Scouts St-Hubertus"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20548589484521,51.2043018019315]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"65"
+,"Ligging":"Legeweg"
+,"Huisnr":0
+,"Eigenaar":"Chiro Waww"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"Chiro W.A.W.W."
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20548589484521,51.2043018019315]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"66"
+,"Ligging":"Legeweg"
+,"Huisnr":0
+,"Eigenaar":"Scouts Savio"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"Scouts Savio"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20548589484521,51.2043018019315]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"67"
+,"Ligging":"Sint-Jansdreef"
+,"Huisnr":0
+,"Eigenaar":"39e Fos De Menapiers"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"39e Fos De MenapiÃ«rs"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20858003378236,51.2093257086257]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"73"
+,"Ligging":"Brieversweg"
+,"Huisnr":373
+,"Eigenaar":"KSA Rooyghem"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"KSA Rooyghem"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.28884658760572,51.212017611176]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"75"
+,"Ligging":"Sint-Trudostraat"
+,"Huisnr":1
+,"Eigenaar":"Stad Brugge"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"Chiro Steenbrugge, Jin Brugse Vrije"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23806750751004,51.1819042554627]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"77"
+,"Ligging":"Lodewijk Coiseaukaai"
+,"Huisnr":0
+,"Eigenaar":"11e Fos De Boekaniers"
+,"Terrein":0
+,"Deelgemeente":"Sint-Pieters"
+,"Vereniging":"11e Fos De Boekaniers"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22318711155183,51.2330367043729]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"78"
+,"Ligging":"Lodewijk Coiseaukaai"
+,"Huisnr":11
+,"Eigenaar":"Sint-Leo Zeescouts"
+,"Terrein":0
+,"Deelgemeente":"Sint-Pieters"
+,"Vereniging":"Sint-Leo Zeescouts"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22318711155183,51.2330367043729]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"79"
+,"Ligging":"Jagerspad (Lisseweegse steenweg)"
+,"Huisnr":0
+,"Eigenaar":"Zeescouts Stella Maris"
+,"Terrein":0
+,"Deelgemeente":"Zwankendamme"
+,"Vereniging":"Zeescouts Stella Maris"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20145725923332,51.3110081218948]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"81"
+,"Ligging":"Kerklaan"
+,"Huisnr":37
+,"Eigenaar":"kerkfabriek"
+,"Terrein":0
+,"Deelgemeente":"Assebroek"
+,"Vereniging":"Chiro Sint-Joris 't Leitje"
+,"Aantal_geb":3
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.27413489757201,51.1905330145433]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"82"
+,"Ligging":"Legeweg"
+,"Huisnr":0
+,"Eigenaar":"parochie St-Baafs"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"Chiro W.A.W.W."
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20548589484521,51.2043018019315]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"83"
+,"Ligging":"Keurvorst Karel Theodoorstraat"
+,"Huisnr":2
+,"Eigenaar":"parochie/kerkfabriek"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"KSA Willibrord"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.19476682478046,51.1927648473099]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"94"
+,"Ligging":"Venkelstraat"
+,"Huisnr":6
+,"Eigenaar":"parochie St-Anna"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"KSA Frassati"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23266061438015,51.2129305665352]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"99"
+,"Ligging":"Naaldenstraat"
+,"Huisnr":18
+,"Eigenaar":"kloosterzusters"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"Sint-Michielsbeweging"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.22229216252223,51.21042242976]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"107"
+,"Ligging":"Beenhouwersstraat"
+,"Huisnr":9
+,"Eigenaar":"PrivÃ©"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"Wegwijzer v.z.w. Reisinfocentrum"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.2175575529656,51.2079729798131]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"111"
+,"Ligging":"Verversdijk"
+,"Huisnr":17
+,"Eigenaar":"PrivÃ©"
+,"Terrein":0
+,"Deelgemeente":"Brugge-centrum"
+,"Vereniging":"Speel-o-theek De Piepbal"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.23001790474355,51.2116698210287]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"123"
+,"Ligging":"Zeeweg"
+,"Huisnr":96
+,"Eigenaar":"PrivÃ©"
+,"Terrein":0
+,"Deelgemeente":"Sint-Andries"
+,"Vereniging":"Jongerenvereniging Voor Sterrenkunde Vigilia"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.15324738329988,51.1768012021015]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"128"
+,"Ligging":"Engelendalelaan"
+,"Huisnr":18
+,"Eigenaar":"KSA Rooyghem"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"KSA Rooyghem"
+,"Aantal_geb":2
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.2706960505505,51.2054873108963]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"129"
+,"Ligging":"Kanunnik Decoeneplein"
+,"Huisnr":0
+,"Eigenaar":"parochie"
+,"Terrein":0
+,"Deelgemeente":"Sint-Kruis"
+,"Vereniging":"KSA St Kruis en Male"
+,"Aantal_geb":1
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.28726622413454,51.2124609117833]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"138"
+,"Ligging":"Duivenslagstraat"
+,"Huisnr":0
+,"Eigenaar":"PrivÃ©"
+,"Terrein":0
+,"Deelgemeente":"Sint-Pieters"
+,"Vereniging":"Jongerenwerking De Wissel"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.20470473723558,51.2344358360967]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"142"
+,"Ligging":"Stationsstraat"
+,"Huisnr":0
+,"Eigenaar":"PrivÃ©"
+,"Terrein":0
+,"Deelgemeente":"Lissewege"
+,"Vereniging":"KSA Lissewege"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.19633182631287,51.2941257573823]}
+}
+,{
+"json_featuretype":"Jeugdlokalen"
+,"Nr":"144"
+,"Ligging":"Ploegstraat"
+,"Huisnr":0
+,"Eigenaar":"PrivÃ©"
+,"Terrein":0
+,"Deelgemeente":"Zeebrugge"
+,"Vereniging":"Zeescouts Stella Maris"
+,"Aantal_geb":0
+,"Aangemaakt op":"10/10/2016"
+,"json_ogc_wkt_crs":"GEOGCS[\"WGS84 Lat/Longs\",DATUM[\"WGS_1984\",SPHEROID[\"World Geodetic System of 1984, GEM 10C\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]"
+,"json_geometry":{"type":"Point","coordinates":[3.2089452344543,51.3310593772061]}
+}
+]
