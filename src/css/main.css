@@ -52,6 +52,10 @@ aside .menu .menu-item {
     cursor: pointer;
 }
 
+aside .menu .activated {
+    background-color: rgba(123, 28, 28, 1);
+}
+
 aside .menu .menu-item:last-of-type {
     border: none;
 }
