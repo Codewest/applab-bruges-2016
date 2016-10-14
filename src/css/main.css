@@ -1,48 +1,3 @@
-/* base-style */
-@font-face {
-    font-family: "Rubik";
-    src: url("/src/fonts/Rubik-Regular.woff2") format("woff2"),
-         url("/src/fonts/Rubik-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Rubik";
-    src: url("/src/fonts/Rubik-Bold.woff2") format("woff2"),
-         url("/src/fonts/Rubik-Bold.woff") format("woff");
-    font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Material Icons';
-  src: url("/src/fonts/MaterialIcons-Regular.woff2") format('woff2'),
-       url("/src/fonts/MaterialIcons-Regular.woff") format('woff');
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-}
-
 html {
     font-family: "Rubik", "Helvetica", "Arial", sans-serif;
     background-color: rgba(0, 0, 0, 0.80);
@@ -61,25 +16,47 @@ body {
 }
 /* /base-style */
 
-/* /map */
+/* map */
 #map{
     width: 100%;
     height: 100%;
 }
+/* /map */
 
 /* sidebar */
 aside {
     width: 100%;
-    background-color: rgba(244, 67, 54, 1);
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 100;
-    height: 50px;
 }
 
-aside.active {
-    height: 30%;
+aside nav.menu {
+    display: none;
+    height: 200px;
+    background-color: rgba(211, 47, 47, 1);
+}
+
+aside nav.menu-controls {
+    height: 50px;
+    clear: both;
+    background-color: rgba(244, 67, 54, 1);
+}
+
+aside nav a i.material-icons {
+    color: rgba(255, 255, 255, 1);
+    font-size: 38px;
+}
+
+aside nav a.hamburger {
+    float: left;
+    margin: 5px 0 0 10px;
+}
+
+aside nav a.photo {
+    float: right;
+    margin: 5px 10px 0 0;
 }
 /* /sidebar */
 
