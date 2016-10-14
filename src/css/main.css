@@ -30,19 +30,38 @@ aside {
     bottom: 0;
     left: 0;
     z-index: 100;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
 }
 
 aside .menu {
     display: none;
     background-color: rgba(211, 47, 47, 1);
-    padding: 5px 0;
 }
 
 aside .menu .menu-item {
     display: inline-block;
     height: 30px;
     width: 100%;
-    padding: 10px 10px;
+    padding: 10px 0 9px 10px;
+    border-bottom: 1px solid rgba(183, 28, 28, 1);
+    cursor: pointer;
+}
+
+aside .menu .menu-item:last-of-type {
+    border: none;
+}
+
+aside .menu .menu-item:hover {
+    background-color: rgba(239, 83, 80, 1);
+}
+
+aside .menu .menu-item:active {
+    background-color: rgba(183, 28, 28, 1);
 }
 
 aside .menu .menu-item a {
@@ -50,6 +69,7 @@ aside .menu .menu-item a {
     width: 200px;
     height: 20px;
     margin-top: 5px;
+
 }
 
 aside .menu .menu-item i.material-icons {
@@ -63,6 +83,8 @@ aside .menu-controls {
     height: 50px;
     clear: both;
     background-color: rgba(244, 67, 54, 1);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 aside nav a i.material-icons {
@@ -78,6 +100,12 @@ aside nav .hamburger {
 aside nav .photo {
     float: right;
     margin: 5px 10px 0 0;
+}
+
+#interesses-page {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(211, 47, 47, 1);
 }
 /* /sidebar */
 
