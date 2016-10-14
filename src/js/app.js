@@ -1,11 +1,20 @@
 import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
 import { drawBruges } from './polygons';
+import { clearMarkers, setMarkers } from './markers';
 import data from './data';
 
 (function() {
     var map;
-    var list = [] ;
+    var list = [];
+
+    $(window).on('load', function(e){
+        if (window.location.hash == '#_=_') {
+            window.location.hash = ''; // for older browsers, leaves a # behind
+            history.pushState('', document.title, window.location.pathname); // nice and clean
+            e.preventDefault(); // no page reload
+        }
+    });
 
     $(function () {
         makeMap();
@@ -15,7 +24,8 @@ import data from './data';
         addEventListeners();
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        console.log(data.benchPoints());
+        var points = data.benchPoints();
+        setMarkers(map, points);
     });
 
     var makeMap = function makeMap() {
