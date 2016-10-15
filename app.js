@@ -44,7 +44,7 @@ fotoRouter.get("/",function(req,res,next){
 
 fotoRouter.post("/save",function(req,res,next){
 var data = req.body.imgBase64.replace("data:image/png;base64,","");
-fs.writeFile("foto/test.png",data,"base64",  function(err) {
+fs.writeFile("foto/"+req.body.name + ".png",data,"base64",  function(err) {
   if(err) {
     console.log(err);
   } else {

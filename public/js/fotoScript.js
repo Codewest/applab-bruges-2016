@@ -2,6 +2,7 @@ var video = document.getElementById("video");
 var mediaStream;
 var width = 1280;
 var heigth = 720;
+var data;
 var camera = function camera(){
     navigator.getUserMedia(
          {
@@ -11,6 +12,7 @@ var camera = function camera(){
          function(stream) {
              mediaStream =stream;
              video.src = window.URL.createObjectURL(stream);
+             video.webkitEnterFullScreen();
 
             video.play();
          },
@@ -31,23 +33,30 @@ var takePicture = function takePicture(){
     canvas.width  = width;
     canvas.height = heigth;
     canvas.getContext('2d').drawImage(video, 0, 0, width, heigth);
-    var data = canvas.toDataURL('image/png');
+    data = canvas.toDataURL('image/png');
+    stopStream();
+    $('.hidden').removeClass("hidden");
+    $('.picture').addClass("hidden");
+
+}
+var sendPicture = function sendPicture(){
+    var givenName = $('#naam').val();
     $.ajax({
         type: "post",
         url:"/foto/save",
         data:{
+            name: givenName,
             imgBase64: data
         }
     }).done(function(json){
         console.log("saved");
     })
-    stopStream();
 
 }
 
 
 $(function(){
     camera();
-    $('#stop').on('click',stopStream);
-    $('#picture').on('click',takePicture);
+    $('.picture').on('click',takePicture);
+    $('#send').on('click',sendPicture)
 })

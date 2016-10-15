@@ -1,15 +1,27 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title> Testing </title>
+    <meta name="viewport" content="width=device-width">
+    <title>Prente</title>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet'/>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/foto.min.css" type="text/css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'></script>
 </head>
 <body>
-
-    <video id="video" height="720", width="1280"> </video>
+<dev id="fotocontainer">
     <canvas id="canvas"></canvas>
-    <button type="button" id="stop">STOP</button>
-    <button type="button" id="picture">Take Picture</button>
 
+        <video id="video" > </video>
+        <div id="pictureContainer"><button type="button" class="picture" >Take Picture</button></div>
+
+
+    <form class="sendForm" action="/foto">
+    <input type="text" id="naam" name="naam" class="hidden"/>
+    <button type="button" id="send" class="hidden">send</button>
+    </from>
+</dev>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/fotoScript.js"></script>
 </body>

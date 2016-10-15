@@ -24,6 +24,10 @@ gulp.task('styles', () => {
     .pipe(uglifyCSS())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('public/css/'));
+    gulp.src('./src/css/foto.css')
+      .pipe(uglifyCSS())
+      .pipe(rename({ suffix: '.min' }))
+      .pipe(gulp.dest('public/css/'));
 });
 
 gulp.task('watch', () => {
