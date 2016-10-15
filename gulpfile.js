@@ -17,6 +17,12 @@ gulp.task('scripts', () => {
   .pipe(source('app.js'))
   .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('./public/js/'));
+  rollup({
+      entry: './src/js/app.js'
+  })
+  .pipe(source('fotoScript.js'))
+  .pipe(rename({ suffix: '.min' }))
+  .pipe(gulp.dest('./public/js/'));
 });
 
 gulp.task('styles', () => {
