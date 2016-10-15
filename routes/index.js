@@ -3,14 +3,14 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
     // DEVELOPMENT WITHOUT AUTH
-    res.render('index', { title: 'Applab' });
+    //res.render('index', { title: 'Applab' });
 
     // PRODUCTION WITH AUTH
-    /*if(isAuthenticated(req)) {
+    if(isAuthenticated(req)) {
         res.render('index', { title: 'Applab' });
     } else {
-        res.render('login', { title: 'Applab' });
-    }*/
+        res.redirect('/login');
+    }
 });
 
 router.get('/login', function(req, res, next) {
