@@ -1,3 +1,4 @@
+console.log("Hey, that's pretty good");
 var menuOpen = false;
 var subMenuOpen = false;
 
