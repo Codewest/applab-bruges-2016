@@ -1,7 +1,8 @@
 var currentState = {};
 
 function mergeState(newState) {
-  return newState.slice(currentState.length, newState.length);
+  currentState = newState.slice(currentState.length, newState.length);
+  return currentState;
 }
 
 function requestState(currentState, receivedState) {
