@@ -46,7 +46,7 @@ app.use("/pictures/", pictureroutes);
 app.use("/memories/", memoriesroute);
 
 // init uploaded pictures
-fs.readdir('public/fotos/', function(err, files) {
+fs.readdir('public/pictures/', function(err, files) {
     if(err) {
         console.error("Could not read picture folder: ", err);
         return;

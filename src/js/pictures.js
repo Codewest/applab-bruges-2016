@@ -12,8 +12,6 @@ var camera = function camera(){
          function(stream) {
              mediaStream =stream;
              video.src = window.URL.createObjectURL(stream);
-             video.webkitEnterFullScreen();
-
             video.play();
          },
          function(error) {
@@ -49,7 +47,9 @@ var sendPicture = function sendPicture(){
         }
     }).done(function(json){
         console.log("saved");
+        window.location.href="/";
     })
+
 
 }
 
