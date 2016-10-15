@@ -104,13 +104,10 @@ export function setSpecialMarker(map) {
   el.innerHTML = 'room';
   el.style.color = 'rgba(211, 47, 47, 1)';
 
-  el.addEventListener('click', function () {
-      showPhotos();
-  });
-
   entrepot = new mapboxgl.Marker(el, {offset: [-30, -30]});
   entrepot.setLngLat([3.225813, 51.226464]);
   entrepot.addTo(map);
+  return el;
 }
 
 export function clearMarkers(map, name) {

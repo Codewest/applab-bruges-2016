@@ -5,13 +5,31 @@ import { clearMarkers, setMarkers, setSpecialMarker } from './markers';
 import { listen } from './listen';
 import data from './data';
 
-function showPhotos(pics) {
-  // foo
-}
-
 (function() {
     var map;
     var list = [];
+
+    function addPhotos(pics) {
+      var queue = [];
+      $('#lightbox h3').text('Herinneringen aan Het Entrepot');
+      for (var i = 0; i < pics.length; i++) {
+        var id = pics[i].pictureid;
+        var p = new Promise(function(fulfill) {
+          $.ajax({
+            method: 'GET',
+            url: `/pictures/${id}.png`
+          }).done(function(image) {
+            fulfill(image);
+          });
+        });
+        queue.push(p);
+      }
+      Promise.all(queue).then(function(images){
+        for (var i = 0; i < images.length; i++) {
+          $('#lightbox ul').append(`<li>${images[i]}</li>`);
+        }
+      });
+    }
 
     $(window).on('load', function(e){
         if (window.location.hash == '#_=_') {
@@ -25,7 +43,7 @@ function showPhotos(pics) {
         makeMap();
         map.on('load', function () {
             drawBruges(map);
-            setSpecialMarker(map);
+            var marker = setSpecialMarker(map);
             // $('.entrepot').attr('data-tooltip') = 'something';
         });
         listen();
@@ -36,7 +54,7 @@ function showPhotos(pics) {
         setInterval(determinePosition, 5000);
         setInterval(function() {
           listen().then(function(picsToAdd){
-            setPhotos(picsToAdd);
+            addPhotos(picsToAdd);
           });
         }, 1500);
     });
@@ -60,4 +78,7 @@ function showPhotos(pics) {
         clearMarkers(map, props.name);
       }
     }
+
+
+
 })();
