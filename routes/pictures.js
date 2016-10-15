@@ -19,7 +19,7 @@ router.post("/save", function(req, res, next) {
             // Not so strict on login because of the demo :)
             var userid = -1;
             if(req.user !== undefined) userid = req.user.id;
-            memories.create(pictureid, userid, "Mijn herinnering..");
+            memories.create(id, userid, "Mijn herinnering..");
         }
     });
     res.send("ok");

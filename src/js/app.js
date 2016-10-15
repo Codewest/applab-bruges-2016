@@ -1,9 +1,13 @@
 import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
 import { drawBruges } from './polygons';
-import { clearMarkers, setMarkers } from './markers';
+import { clearMarkers, setMarkers, setSpecialMarker } from './markers';
 import { listen } from './listen';
 import data from './data';
+
+function showPhotos(pics) {
+  // foo
+}
 
 (function() {
     var map;
@@ -21,6 +25,8 @@ import data from './data';
         makeMap();
         map.on('load', function () {
             drawBruges(map);
+            setSpecialMarker(map);
+            // $('.entrepot').attr('data-tooltip') = 'something';
         });
         listen();
         addEventListeners(function(props) {
@@ -28,7 +34,11 @@ import data from './data';
         });
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        setInterval(listen, 1500);
+        setInterval(function() {
+          listen().then(function(picsToAdd){
+            setPhotos(picsToAdd);
+          });
+        }, 1500);
     });
 
     var makeMap = function makeMap() {

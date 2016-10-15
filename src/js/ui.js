@@ -1,14 +1,38 @@
+import { camera, takePicture } from "./photo";
+
 var menuOpen = false;
 var subMenuOpen = false;
 
 var addEventListeners = function (callback) {
     $(".hamburger").on("click", toggleMenu);
     $(".interesses").on("click", openInteressesPage);
+    $(".photo").on("click", togglePhoto);
+    $(".take-photo").on("click", takePhoto);
+    $(".cancel-photo").on("click", cancelPhoto);
     $(".interesses-page .menu-item").on("click", function() {
         $(this).toggleClass("activated");
         var props = getClickedInterest($(this));
         callback(props);
     });
+};
+
+var takePhoto = function() {
+    takePicture(function() {
+        cancelPhoto();
+    });
+};
+
+var cancelPhoto = function() {
+    $("#photo").slideUp();
+    $("aside").show();
+    $("#map").slideDown();
+};
+
+var togglePhoto = function() {
+    camera();
+    $("#map").slideUp();
+    $("aside").hide();
+    $("#photo").slideDown();
 };
 
 var openInteressesPage = function() {
