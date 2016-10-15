@@ -7,18 +7,18 @@ router.get('/', function(req, res, next) {
 
     // PRODUCTION WITH AUTH
     if(isAuthenticated(req)) {
-        res.render('index', { title: 'Applab' });
+        res.render('index', { title: 'Prente' });
     } else {
         res.redirect('/login');
     }
 });
 
 router.get('/login', function(req, res, next) {
-    res.render('login', { title: 'Applab' });
+    res.render('login', { title: 'Prente' });
 });
 
 var isAuthenticated = function(req) {
-    return req.user !== undefined;
+    return req.session.loggedin;
 };
 
 module.exports = router;
