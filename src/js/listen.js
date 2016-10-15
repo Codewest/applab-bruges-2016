@@ -1,5 +1,9 @@
-function mergeState(newState) {
-  var mergedState = newState;
+function mergeState(currentState, newState) {
+  var mergedState = [];
+  for (var i = currentState.length; i < newState.length; i++) {
+    mergedState[i] = newState[i];
+  }
+  console.log(mergedState);
   return mergedState;
 }
 
@@ -9,7 +13,7 @@ function requestState(currentState, receivedState) {
       method: 'GET',
       url: '/memories'
     }).done(function(receivedState) {
-      var mergedState = mergeState(receivedState);
+      var mergedState = mergeState(currentState, receivedState);
       fulfill(mergedState);
     });
   });
@@ -17,7 +21,7 @@ function requestState(currentState, receivedState) {
 
 function listen(currentState) {
   return new Promise(function (fulfill) {
-    requestState(currentState).then(function(newSate) {
+    requestState(currentState).then(function(newState) {
       fulfill(newState);
     });
   });
