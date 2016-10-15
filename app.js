@@ -4,8 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require("fs");
 var passport = require("passport");
 var expressSession = require('express-session')
+
 
 var routes = require('./routes/index');
 var authroutes = require('./routes/auth');
@@ -24,6 +26,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
+app.use(bodyParser({limit:'50mb'}));
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -34,8 +37,27 @@ app.use(session);
 app.use(passport.initialize());
 app.use(passport.session());
 
+var fotoRouter = express.Router();
+fotoRouter.get("/",function(req,res,next){
+    res.render("foto");
+})
+
+fotoRouter.post("/save",function(req,res,next){
+var data = req.body.imgBase64.replace("data:image/png;base64,","");
+fs.writeFile("foto/"+req.body.naam + ".png",data,"base64",  function(err) {
+  if(err) {
+    console.log(err);
+  } else {
+    console.log("The file was saved!");
+  }
+    });
+    res.send("ok");
+
+})
+app.use("/foto",fotoRouter);
 app.use('/', routes);
 app.use('/auth/', authroutes);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

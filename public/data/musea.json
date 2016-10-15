@@ -2,7 +2,7 @@
 {
 "json_featuretype":"Musea"
 ,"Id":1
-,"Gebouw":"Steenmuseum"
+,"Naam":"Steenmuseum"
 ,"Ligging":"Dijver 17"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -12,7 +12,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":2
-,"Gebouw":"Gruuthusemuseum"
+,"Naam":"Gruuthusemuseum"
 ,"Ligging":"Dijver 17"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -22,7 +22,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":3
-,"Gebouw":"Archeologisch Museum"
+,"Naam":"Archeologisch Museum"
 ,"Ligging":"Mariastraat 36 a"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -32,7 +32,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":4
-,"Gebouw":"Arendshuis"
+,"Naam":"Arendshuis"
 ,"Ligging":"Dijver 16"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -42,7 +42,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":5
-,"Gebouw":"Groeningemuseum"
+,"Naam":"Groeningemuseum"
 ,"Ligging":"Dijver 12"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -52,7 +52,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":6
-,"Gebouw":"Memlingmuseum"
+,"Naam":"Memlingmuseum"
 ,"Ligging":"Mariastraat 38"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -62,7 +62,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":7
-,"Gebouw":"Stadhuis -Gotische Zaal-"
+,"Naam":"Stadhuis -Gotische Zaal-"
 ,"Ligging":"Burg 12"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -72,7 +72,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":8
-,"Gebouw":"Brugse Vrije -Provinciaalmuseum-"
+,"Naam":"Brugse Vrije -Provinciaalmuseum-"
 ,"Ligging":"Burg 11a"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -82,7 +82,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":9
-,"Gebouw":"De Gouden Boom -Brouwerijmuseum-"
+,"Naam":"De Gouden Boom -Brouwerijmuseum-"
 ,"Ligging":"Verbrand Nieuwland 10"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -92,7 +92,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":10
-,"Gebouw":"Guido Gezellemuseum"
+,"Naam":"Guido Gezellemuseum"
 ,"Ligging":"Rolweg 64"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -102,7 +102,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":11
-,"Gebouw":"O.L.-Vrouwekerk -praalgraven, madon"
+,"Naam":"O.L.-Vrouwekerk -praalgraven, madon"
 ,"Ligging":"Mariastraat 19"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -112,7 +112,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":12
-,"Gebouw":"Schuttersgilde Sint-Joris"
+,"Naam":"Schuttersgilde Sint-Joris"
 ,"Ligging":"Stijn Streuvelsstraat 59"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -122,7 +122,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":13
-,"Gebouw":"Sint-Salvatorskathedraal"
+,"Naam":"Sint-Salvatorskathedraal"
 ,"Ligging":" Zuidzandstraat"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -132,7 +132,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":14
-,"Gebouw":"Museum van Volkskunde"
+,"Naam":"Museum van Volkskunde"
 ,"Ligging":"Rolweg / Balstraat"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -142,7 +142,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":15
-,"Gebouw":"Schuttersgilde Sint-Sebastiaan"
+,"Naam":"Schuttersgilde Sint-Sebastiaan"
 ,"Ligging":"Carmerstraat 174"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -152,7 +152,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":16
-,"Gebouw":"Belfort"
+,"Naam":"Belfort"
 ,"Ligging":"Markt 7"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -162,7 +162,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":17
-,"Gebouw":"Kantcentrum"
+,"Naam":"Kantcentrum"
 ,"Ligging":"Peperstraat 3"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -172,7 +172,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":18
-,"Gebouw":"Begijnenhuisje"
+,"Naam":"Begijnenhuisje"
 ,"Ligging":"Begijnhof 1"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -182,7 +182,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":19
-,"Gebouw":"Brouwerij Halve Maan"
+,"Naam":"Brouwerij Halve Maan"
 ,"Ligging":"Walplein 26"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -192,7 +192,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":20
-,"Gebouw":"Museum Heilig Bloed"
+,"Naam":"Museum Heilig Bloed"
 ,"Ligging":"Burg 10"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -202,7 +202,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":21
-,"Gebouw":"Onze-Lieve-Vrouw van de Potterie"
+,"Naam":"Onze-Lieve-Vrouw van de Potterie"
 ,"Ligging":"Potterierei 79"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
@@ -212,7 +212,7 @@
 ,{
 "json_featuretype":"Musea"
 ,"Id":0
-,"Gebouw":"Kerk Engels Klooster"
+,"Naam":"Kerk Engels Klooster"
 ,"Ligging":"Carmersstraat 85"
 ,"Functie":"M"
 ,"Aangemaakt op":"10/10/2016"
