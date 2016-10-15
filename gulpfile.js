@@ -32,3 +32,4 @@ gulp.task('watch', () => {
 });
 
 gulp.task('default', ['scripts', 'styles', 'watch'], () => {});
+gulp.task('build', ['scripts', 'styles'], () => {});
