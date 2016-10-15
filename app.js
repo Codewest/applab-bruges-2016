@@ -41,9 +41,7 @@ var fotoRouter = express.Router();
 fotoRouter.get("/",function(req,res,next){
     res.render("foto");
 })
-fotoRouter.get("/bekijken",function(req,res,next){
-    res.render("fotoBekijken");
-})
+
 fotoRouter.post("/save",function(req,res,next){
 var data = req.body.imgBase64.replace("data:image/png;base64,","");
 fs.writeFile("foto/test.png",data,"base64",  function(err) {
