@@ -8,9 +8,12 @@ var fs = require("fs");
 var passport = require("passport");
 var expressSession = require('express-session')
 
-
 var routes = require('./routes/index');
 var authroutes = require('./routes/auth');
+var pictureroutes = require('./routes/pictures');
+var memoriesroute = require('./routes/memories');
+
+var memories = require('./lib/memories/memorymanager');
 
 var app = express();
 
@@ -37,27 +40,23 @@ app.use(session);
 app.use(passport.initialize());
 app.use(passport.session());
 
-var fotoRouter = express.Router();
-fotoRouter.get("/",function(req,res,next){
-    res.render("foto");
-})
-
-fotoRouter.post("/save",function(req,res,next){
-var data = req.body.imgBase64.replace("data:image/png;base64,","");
-fs.writeFile("foto/"+req.body.naam + ".png",data,"base64",  function(err) {
-  if(err) {
-    console.log(err);
-  } else {
-    console.log("The file was saved!");
-  }
-    });
-    res.send("ok");
-
-})
-app.use("/foto",fotoRouter);
 app.use('/', routes);
 app.use('/auth/', authroutes);
+app.use("/pictures/", pictureroutes);
+app.use("/memories/", memoriesroute);
 
+// init uploaded pictures
+fs.readdir('public/pictures/', function(err, files) {
+    if(err) {
+        console.error("Could not read picture folder: ", err);
+        return;
+    }
+    files.forEach(function(file) {
+        var filename = file.slice(0, -4);
+        // no used because it's not saved right now
+        memories.create(filename, -1, "");
+    });
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
