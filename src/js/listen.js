@@ -1,10 +1,7 @@
-function mergeState(currentState, newState) {
-  var mergedState = [];
-  for (var i = currentState.length; i < newState.length; i++) {
-    mergedState[i] = newState[i];
-  }
-  console.log(mergedState);
-  return mergedState;
+var currentState = {};
+
+function mergeState(newState) {
+  return newState.slice(currentState.length, newState.length);
 }
 
 function requestState(currentState, receivedState) {
@@ -13,15 +10,15 @@ function requestState(currentState, receivedState) {
       method: 'GET',
       url: '/memories'
     }).done(function(receivedState) {
-      var mergedState = mergeState(currentState, receivedState);
+      var mergedState = mergeState(receivedState);
       fulfill(mergedState);
     });
   });
 }
 
-function listen(currentState) {
+function listen() {
   return new Promise(function (fulfill) {
-    requestState(currentState).then(function(newState) {
+    requestState().then(function(newState) {
       fulfill(newState);
     });
   });
