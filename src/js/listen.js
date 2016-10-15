@@ -1,6 +1,7 @@
+var currentState = {};
+
 function mergeState(newState) {
-  var mergedState = newState;
-  return mergedState;
+  return newState.slice(currentState.length, newState.length);
 }
 
 function requestState(currentState, receivedState) {
@@ -15,9 +16,9 @@ function requestState(currentState, receivedState) {
   });
 }
 
-function listen(currentState) {
+function listen() {
   return new Promise(function (fulfill) {
-    requestState(currentState).then(function(newSate) {
+    requestState().then(function(newState) {
       fulfill(newState);
     });
   });

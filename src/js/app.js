@@ -5,8 +5,8 @@ import { clearMarkers, setMarkers, setSpecialMarker } from './markers';
 import { listen } from './listen';
 import data from './data';
 
-function showPhotos() {
-
+function showPhotos(pics) {
+  // foo
 }
 
 (function() {
@@ -34,7 +34,11 @@ function showPhotos() {
         });
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        setInterval(listen, 1500);
+        setInterval(function() {
+          listen().then(function(picsToAdd){
+            setPhotos(picsToAdd);
+          });
+        }, 1500);
     });
 
     var makeMap = function makeMap() {
