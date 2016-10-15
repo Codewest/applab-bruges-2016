@@ -26,7 +26,7 @@ var toggleMenu = function() {
         } else {
             $(".hamburger i").html("menu");
             $(".main-menu").slideUp();
-            $(".interesses-page").slide();
+            $(".interesses-page").slideUp();
             menuOpen = false;
         }
     } else {
