@@ -24,7 +24,6 @@ var camera = function camera(){
 }
 
 var stopStream = function stopStream(){
-    console.log(mediaStream.getTracks());
     mediaStream.getTracks()[0].stop();
 }
 
@@ -43,7 +42,7 @@ var sendPicture = function sendPicture(){
     var givenName = $('#naam').val();
     $.ajax({
         type: "post",
-        url:"/foto/save",
+        url: "/foto/save",
         data:{
             name: givenName,
             imgBase64: data

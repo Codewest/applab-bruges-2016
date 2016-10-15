@@ -19,9 +19,9 @@ gulp.task('scripts', () => {
   .pipe(gulp.dest('./public/js/'));
 
   rollup({
-      entry: './src/js/fotoScript.js'
+      entry: './src/js/pictures.js'
   })
-  .pipe(source('fotoScript.js'))
+  .pipe(source('pictures.js'))
   .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('./public/js/'));
 });
