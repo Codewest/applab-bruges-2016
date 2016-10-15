@@ -2,6 +2,7 @@ import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
 import { drawBruges } from './polygons';
 import { clearMarkers, setMarkers } from './markers';
+import { listen } from './listen';
 import data from './data';
 
 (function() {
@@ -21,12 +22,13 @@ import data from './data';
         map.on('load', function () {
             drawBruges(map);
         });
-        var interests = [];
+        listen();
         addEventListeners(function(props) {
           visualize(props);
         });
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
+        setInterval(listen, 1500);
     });
 
     var makeMap = function makeMap() {
