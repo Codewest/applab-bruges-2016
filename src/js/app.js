@@ -10,25 +10,15 @@ import data from './data';
     var list = [];
 
     function addPhotos(pics) {
-      var queue = [];
       $('#lightbox h3').text('Herinneringen aan Het Entrepot');
+      $('#lightbox ul').html('');
       for (var i = 0; i < pics.length; i++) {
-        var id = pics[i].pictureid;
-        var p = new Promise(function(fulfill) {
-          $.ajax({
-            method: 'GET',
-            url: `/pictures/${id}.png`
-          }).done(function(image) {
-            fulfill(image);
-          });
-        });
-        queue.push(p);
+          $('#lightbox ul').append(`<li><img src="/pictures/${pics[i].pictureid}.png" /></li>`);
       }
-      Promise.all(queue).then(function(images){
-        for (var i = 0; i < images.length; i++) {
-          $('#lightbox ul').append(`<li>${images[i]}</li>`);
-        }
-      });
+    }
+
+    function showPhotos() {
+      $("#lightbox").show();
     }
 
     $(window).on('load', function(e){
@@ -43,7 +33,7 @@ import data from './data';
         makeMap();
         map.on('load', function () {
             drawBruges(map);
-            var marker = setSpecialMarker(map);
+            var marker = setSpecialMarker(map, showPhotos);
             // $('.entrepot').attr('data-tooltip') = 'something';
         });
         listen();

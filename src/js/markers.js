@@ -98,11 +98,13 @@ var sendMarkers = function(geojson, map, name, content) {
   markerLayers[name] = mapObjs;
 };
 
-export function setSpecialMarker(map) {
+export function setSpecialMarker(map, callback) {
   var el = document.createElement('i');
   el.className = 'marker material-icons entrepot';
   el.innerHTML = 'room';
   el.style.color = 'rgba(211, 47, 47, 1)';
+
+  el.addEventListener('click', callback);
 
   entrepot = new mapboxgl.Marker(el, {offset: [-30, -30]});
   entrepot.setLngLat([3.225813, 51.226464]);
