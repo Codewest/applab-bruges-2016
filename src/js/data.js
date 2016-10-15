@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-var path = "/data/";
-function getCoordinatenMusea(){
-    var list = [];
-    $.when($.getJSON(path+"musea.json").done(function (json) {
-    for (var i = 0; i < json.length; i++) {
-     var item = json[i];
-     var address = item.Ligging.split(" ");
-     $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address="+address[0]+"+"+address[1]+"&key=AIzaSyAM6FLYxpA8usOS4sBeYwo3wwzifUMPEfE").done(function(json){
-         var geo = json.results[0].geometry.location;
-         var object;
-         object = {
-                    lat:geo.lat,
-                   long:geo.lng
-=======
 function readJSON(path) {
 	return new Promise(function(resolve, reject) {
 		var xhr = new XMLHttpRequest();
@@ -29,7 +14,6 @@ function readJSON(path) {
 		xhr.send();
   });
 }
->>>>>>> 8b5d59defcec988812ecfb9d3b35c60067b78adc
 
 var getCoordinatenGeneric = function getCoordinatenGeneric(url) {
   var list = [];
@@ -150,15 +134,6 @@ function getCoordinatenLokalen(){
  }
 
 var data = {
-<<<<<<< HEAD
-  libPoints: getCoordinatenBib,
-  museumPoints: getCoordinatenMusea,
-  sportPoints: getCoordinatenSport,
-  swimmingPoints: getCoordinatenZwembaden,
-  youthPoints: getCoordinatenLokalen,
-  benchPoints: getCoordinatenZitBanken,
-  parkPoints: getCoordinatenParken
-=======
   bib: getCoordinatenBib,
   monumenten: getCoordinatenMusea,
   sport: getCoordinatenSport,
@@ -167,7 +142,6 @@ var data = {
   horeca: getCoordinatenHoreca,
   zitbanken: getCoordinatenZitBanken,
   parken: getCoordinatenParken
->>>>>>> 8b5d59defcec988812ecfb9d3b35c60067b78adc
 };
 
 export default data;
