@@ -4,7 +4,7 @@
   "description": "24-hour hackathon",
   "scripts": {
     "start": "node --use_strict ./bin/www",
-    "hook": "git pull && npm i && gulp build"
+    "hook": "git pull && npm i && gulp build && echo 'finished hooking up'"
   },
   "repository": {
     "type": "git",
