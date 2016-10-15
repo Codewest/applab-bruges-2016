@@ -1,12 +1,12 @@
 var video = document.getElementById("video");
 var mediaStream;
 var width = 1280;
-var heigth = 720;
+var height = 720;
 var data;
 var camera = function camera(){
     navigator.getUserMedia(
          {
-            video:{ width: width, height: heigth },
+            video:{ width: width, height: height},
             audio:false
          },
          function(stream) {
@@ -25,37 +25,33 @@ var stopStream = function stopStream(){
     mediaStream.getTracks()[0].stop();
 }
 
-var takePicture = function takePicture(){
+var takePicture = function takePicture(cb){
     var canvas = document.getElementById("canvas");
     canvas.width  = width;
-    canvas.height = heigth;
-    canvas.getContext('2d').drawImage(video, 0, 0, width, heigth);
+    canvas.height = height;
+    canvas.getContext('2d').drawImage(video, 0, 0, width, height);
     data = canvas.toDataURL('image/png');
     stopStream();
     $('.hidden').removeClass("hidden");
     $('.picture').addClass("hidden");
-
+    sendPicture();
+    cb();
 }
+
 var sendPicture = function sendPicture(){
-    var givenName = $('#naam').val();
     $.ajax({
         type: "post",
         url:"/foto/save",
         data:{
-            name: givenName,
             imgBase64: data
         }
-    }).done(function(json){
-        console.log("saved");
-        window.location.href="/";
-    })
-
-
+    });
 }
 
+export { camera, takePicture };
 
-$(function(){
+/*$(function(){
     camera();
     $('.picture').on('click',takePicture);
     $('#send').on('click',sendPicture)
-})
+})*/

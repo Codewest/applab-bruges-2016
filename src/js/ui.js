@@ -1,3 +1,5 @@
+import { camera, takePicture } from "./photo";
+
 var menuOpen = false;
 var subMenuOpen = false;
 
@@ -15,7 +17,9 @@ var addEventListeners = function (callback) {
 };
 
 var takePhoto = function() {
-
+    takePicture(function() {
+        cancelPhoto();
+    });
 };
 
 var cancelPhoto = function() {
@@ -25,6 +29,7 @@ var cancelPhoto = function() {
 };
 
 var togglePhoto = function() {
+    camera();
     $("#map").slideUp();
     $("aside").hide();
     $("#photo").slideDown();

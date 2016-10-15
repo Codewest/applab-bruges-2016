@@ -17,13 +17,6 @@ gulp.task('scripts', () => {
   .pipe(source('app.js'))
   .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('./public/js/'));
-
-  rollup({
-      entry: './src/js/fotoScript.js'
-  })
-  .pipe(source('fotoScript.js'))
-  .pipe(rename({ suffix: '.min' }))
-  .pipe(gulp.dest('./public/js/'));
 });
 
 gulp.task('styles', () => {
@@ -31,10 +24,6 @@ gulp.task('styles', () => {
     .pipe(uglifyCSS())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('public/css/'));
- gulp.src('./src/css/foto.css')
-      .pipe(uglifyCSS())
-      .pipe(rename({ suffix: '.min' }))
-      .pipe(gulp.dest('public/css/'));
 });
 
 gulp.task('watch', () => {
