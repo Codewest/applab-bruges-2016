@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "24-hour hackathon",
   "scripts": {
-    "start": "node --use_strict ./bin/www"
+    "start": "node --use_strict ./bin/www",
+    "hook": "git pull && npm i && gulp build"
   },
   "repository": {
     "type": "git",
