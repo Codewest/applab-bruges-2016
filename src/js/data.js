@@ -22,18 +22,32 @@ var getCoordinatenGeneric = function getCoordinatenGeneric(url) {
       for (var i = 0; i < json.length; i++) {
         var item = json[i];
         var geo = item.json_geometry;
-        var coords = {
-          lat: geo.coordinates[1],
-          long: geo.coordinates[0]
-        }
-        list.push(coords);
+          if (geo != null)
+          {
+              var type = geo.type;
+              var coords = geo.coordinates;
+              var obj = {
+                  featureType: item.json_featuretype,
+                  type: type,
+                  coords: coords
+              };
+              list.push(obj);
+          }
+          if (item.Naam != null)
+          {
+              obj["naam"] = String(item.Naam);
+          }
+          if (item.BEHEERSOBJECT != null)
+          {
+              obj["beheersObject"] = item.BEHEERSOBJECT;
+          }
       }
       fulfill(list);
     });
   });
-}
+};
 
-function getCoordinatenMusea() {
+/*function getCoordinatenMusea() {
   var list = [];
   return new Promise(function (fulfill) {
     readJSON('data/musea.json').done(function (json) {
@@ -45,16 +59,16 @@ function getCoordinatenMusea() {
           var object = {
             lat:geo.lat,
             long:geo.lng
-          }
+          };
           list.push(object);
         });
       }
       fulfill(list);
     });
   });
-}
+}*/
 
-function getCoordinatenZitBanken(){
+/*function getCoordinatenZitBanken(){
     var list = [];
     return new Promise(function (fulfill) {
       readJSON("data/zitbanken.json").then(function (json) {
@@ -65,14 +79,14 @@ function getCoordinatenZitBanken(){
              var object = {
                lat:geo.coordinates[1],
                long:geo.coordinates[0]
-             }
+             };
             list.push(object);
          } else {
              for (var j = 0; j<geo.coordinates.length;j++){
                  var object = {
                    lat:geo.coordinates[j][1],
                    long:geo.coordinates[j][0]
-                 }
+                 };
                 list.push(object);
              }
          }
@@ -80,9 +94,9 @@ function getCoordinatenZitBanken(){
        fulfill(list);
      });
    });
-};
+};*/
 
-var getCoordinatenParken = function getCoordinatenParken(){
+/*var getCoordinatenParken = function getCoordinatenParken(){
     var list = [];
     return new Promise(function (fulfill) {
       readJSON("data/groen.json").then(function (json) {
@@ -104,7 +118,7 @@ var getCoordinatenParken = function getCoordinatenParken(){
                 var object = {
                   lat:glat,
                   long:glong
-                }
+                };
                 list.push(object);
              }
           }
@@ -112,7 +126,7 @@ var getCoordinatenParken = function getCoordinatenParken(){
         fulfill(list);
       });
     });
-}
+};*/
 
 function getCoordinatenBib(){
     return getCoordinatenGeneric("/data/bibliotheken.json");
@@ -132,6 +146,15 @@ function getCoordinatenLokalen(){
  function getCoordinatenZwembaden(){
      return getCoordinatenGeneric("/data/zwembaden.json");
  }
+var getCoordinatenParken = function getCoordinatenParken(){
+    return getCoordinatenGeneric("data/groen.json")
+};
+function getCoordinatenMusea() {
+    return getCoordinatenGeneric("data/musea.json")
+}
+function getCoordinatenZitBanken(){
+    return getCoordinatenGeneric("data/zitbanken.json")
+}
 
 var data = {
   bib: getCoordinatenBib,
