@@ -5,10 +5,21 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require("fs");
+var passport = require("passport");
+var expressSession = require('express-session')
+
 
 var routes = require('./routes/index');
+var authroutes = require('./routes/auth');
 
 var app = express();
+
+var session = expressSession({
+    name: "connect.sid",
+    secret: "applabcookiez",
+	resave: true,
+    saveUninitialized: true
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,6 +33,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session);
+app.use(passport.initialize());
+app.use(passport.session());
 
 var fotoRouter = express.Router();
 fotoRouter.get("/",function(req,res,next){
@@ -44,6 +58,7 @@ fs.writeFile("foto/test.png",data,"base64",  function(err) {
 })
 app.use("/foto",fotoRouter);
 app.use('/', routes);
+app.use('/auth/', authroutes);
 
 
 // catch 404 and forward to error handler

@@ -1,17 +1,32 @@
 import { addEventListeners } from './ui';
 import { openRoute, determinePosition } from './routes';
+import { drawBruges } from './polygons';
+import { clearMarkers, setMarkers } from './markers';
 import data from './data';
 
 (function() {
     var map;
-    var list = [] ;
+    var list = [];
+
+    $(window).on('load', function(e){
+        if (window.location.hash == '#_=_') {
+            window.location.hash = ''; // for older browsers, leaves a # behind
+            history.pushState('', document.title, window.location.pathname); // nice and clean
+            e.preventDefault(); // no page reload
+        }
+    });
 
     $(function () {
         makeMap();
-        addEventListeners();
+        map.on('load', function () {
+            drawBruges(map);
+        });
+        var interests = [];
+        addEventListeners(function(props) {
+          visualize(props);
+        });
         $("#route").on('click', openRoute);
         setInterval(determinePosition, 5000);
-        console.log(data.museumPoints());
     });
 
     var makeMap = function makeMap() {
@@ -23,4 +38,14 @@ import data from './data';
             zoom: 13.7
         });
     };
+
+    function visualize(props) {
+      if (props.active) {
+        data[props.name]().then(function(points) {
+          setMarkers(map, points, props.name, props.content);
+        });
+      } else {
+        clearMarkers(map, props.name);
+      }
+    }
 })();
