@@ -1,4 +1,4 @@
-var path = "src/JSON/";
+var path = "/data/";
 function getCoordinatenMusea(){
     var list = [];
     $.when($.getJSON(path+"musea.json").done(function (json) {
@@ -124,7 +124,6 @@ var data = {
   sportPoints: getCoordinatenSport,
   swimmingPoints: getCoordinatenZwembaden,
   youthPoints: getCoordinatenLokalen,
-  museaPoints: getCoordinatenMusea,
   benchPoints: getCoordinatenZitBanken,
   parkPoints: getCoordinatenParken
 };

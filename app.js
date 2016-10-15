@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require("fs");
 
 var routes = require('./routes/index');
 
@@ -15,13 +16,35 @@ app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(bodyParser({limit:'50mb'}));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+var fotoRouter = express.Router();
+fotoRouter.get("/",function(req,res,next){
+    res.render("foto");
+})
+fotoRouter.get("/bekijken",function(req,res,next){
+    res.render("fotoBekijken");
+})
+fotoRouter.post("/save",function(req,res,next){
+var data = req.body.imgBase64.replace("data:image/png;base64,","");
+fs.writeFile("foto/test.png",data,"base64",  function(err) {
+  if(err) {
+    console.log(err);
+  } else {
+    console.log("The file was saved!");
+  }
+    });
+    res.send("ok");
+
+})
+app.use("/foto",fotoRouter);
 app.use('/', routes);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
