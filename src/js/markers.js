@@ -1,4 +1,5 @@
 var markerLayers = {};
+var entrepot;
 
 var sendMarkers = function(geojson, map, name, content) {
   var mapObjs = [];
@@ -97,6 +98,21 @@ var sendMarkers = function(geojson, map, name, content) {
   markerLayers[name] = mapObjs;
 };
 
+export function setSpecialMarker(map) {
+  var el = document.createElement('i');
+  el.className = 'marker material-icons entrepot';
+  el.innerHTML = 'room';
+  el.style.color = 'rgba(211, 47, 47, 1)';
+
+  el.addEventListener('click', function () {
+      showPhotos();
+  });
+
+  entrepot = new mapboxgl.Marker(el, {offset: [-30, -30]});
+  entrepot.setLngLat([3.225813, 51.226464]);
+  entrepot.addTo(map);
+}
+
 export function clearMarkers(map, name) {
   markerLayers[name].forEach(function(marker){
     marker.remove();
@@ -121,6 +137,7 @@ export function setMarkers(map, data, name, content) {
     if (data[i].naam != null)
     {
         feature["naam"] = data[i].naam;
+        feature['message'] = data[i].naam;
     }
     if (data[i].beheersObject != null) {
         feature["beheersObject"] = data[i].beheersObject;
