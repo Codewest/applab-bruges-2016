@@ -41,7 +41,7 @@ var takePicture = function takePicture(cb){
 var sendPicture = function sendPicture(){
     $.ajax({
         type: "post",
-        url:"/foto/save",
+        url:"/pictures/save",
         data:{
             imgBase64: data
         }
